@@ -6,7 +6,7 @@
 
 Name: osmpbf
 Version: 1.3.3
-Release: 1
+Release: 2
 Source0: https://github.com/scrosby/OSM-binary/archive/master.tar.gz
 Patch0: osmpbf-build-shared-library.patch
 Summary: Library for handling OpenStreetMap PBF files
