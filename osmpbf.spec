@@ -37,7 +37,7 @@ Development files (Headers etc.) for %{name}.
 
 %prep
 %setup -qn OSM-binary-master
-%apply_patches
+%autopatch -p1
 
 %if "%{_lib}" != "lib"
 find . -name CMakeLists.txt |xargs sed -i -e "s,DESTINATION lib,DESTINATION %{_lib},g"
