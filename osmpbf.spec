@@ -10,7 +10,7 @@ Release: 2
 Source0: https://github.com/scrosby/OSM-binary/archive/master.tar.gz
 Patch0: osmpbf-build-shared-library.patch
 Summary: Library for handling OpenStreetMap PBF files
-URL: http://github.com/scrosby/OSM-binary
+URL: https://github.com/scrosby/OSM-binary
 License: GPLv3
 Group: System/Libraries
 BuildRequires: cmake
